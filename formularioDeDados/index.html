@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans:wght@400;700&family=Poppins&display=swap" rel="stylesheet">
+    <title>Formulario Music Drops</title>
+</head>
+<body>
+
+    <header class = "header">
+        <img id = "logo" src = "Imagens/Roxo Música Loja Etsy Banner.png" alt = "Logo">
+        <ul id = "menu">
+            <li><a href = "#">Inicio</a></li>
+            <li><a href = "#">Assinaturas</a></li>
+            <li><a href = "#">Sobre Nós</a></li>
+            <li><a href = "#">Entrar</a></li>
+            <li><a href = "#">Cadastro</a></li>
+        </ul>
+    </header>
+    <div id = "container">
+        <form id="content" method="post" action = "https://www.reaserch1.com">
+            
+            <h1>Cadastro Premium</h2>
+            <p id = "p1"><b>Aviso: </b>Ao responder o formulario MusicDrops
+            cadastre apenas informações veridicas sobre seus dados
+            pessoais!</p>
+        </form>
+        <fieldset id = "np">
+            <legend>Detalhes pessoais</legend>
+
+            <div id = "dv1">
+                <label id = "label1" for="nome">Nome Completo: </label>
+                <input id = "inp1" type="text" required id="label1" name = "Nome de usuario" placeholder="Insira seu nome">    
+            </div>
+             <div id = "dv2">
+                <label id = "label2" for= "cpf">CPF: </label>
+                <input id = "inp2" type="text" required id="label2" name = "cpf" placeholder="Insira seu CPF"> 
+             </div>
+             <div id = "dv3">
+                 <label id = "label3" for = "rg">RG: </label>
+                 <input id = "inp3" type="text" required id="label3" name = "rg" placeholder="Insira seu RG"> 
+             </div>
+             <div id = "dv4">
+                 <label id = "label4" for = "est_civil">Estado civil: </label>
+                 <select id = "sel1" name = "Options">
+                    <option value = "A">Casado(a)</option>
+                    <option value = "B">Solteiro(a)</option>
+                    <option value = "C">Viuvo(a)</option>
+                    <option value = "D">Divorciado(a)</option>
+                    <option value = "E">Nenhuma opção</option>
+                 </select>
+             </div>
+        </fieldset>
+        <fieldset id = "end">
+            <legend>Endereço</legend>
+            <div id = "dv5">
+                <label id = "label5" for = "Logradouro">Logradouro: </label>
+                <input type = "text" required id = "label5" name = "logradouro" placeholder = "Logradouro">                    
+            </div>
+            <div id = "dv6">
+                <label id = "label6" for = "numero">Nº. Residencial: </label>
+                <input type = "text" required id = "label6" name = "numero" placeholder = "numero residencial">
+            </div>
+            <div id = "dv7">
+                <label id = "label7" for = "bairro">Bairro: </label>
+                <input type = "text" required id = "label7" name = "bairro" placeholder = "Bairro">
+            </div>
+            <div id = "dv8">
+                <label id = "label8" for = "comple">Complemento: </label>
+                <input type = "text" required id = "label8" name = "complem" placeholder = "Complemento"> 
+            </div>
+            <div id = "dv9">
+                <label id = "label9" for = "cep">CEP: </label>
+                <input type = "text" required id = "label9" name = "cep" placeholder = "CEP">
+            </div>
+            <div id = "dv10">
+                <label id = "label10" for = "cidade">Cidade: </label>
+                <input type = "text" required id = "label10" name = "cidade" placeholder = "Cidade">
+                <label id = "label11" for = "uf">UF: </label>
+                <select id = "uf" name = "UF">
+                    <option value = ""></option>
+                    <option value = "A">RO</option>
+                    <option value = "B">AC</option>
+                    <option value = "C">AM</option>
+                    <option value = "D">RR</option>
+                    <option value = "E">PA</option>
+                    <option value = "F">AP</option>
+                    <option value = "G">TO</option>
+                    <option value = "H">MA</option>
+                    <option value = "I">PI</option>
+                    <option value = "J">CE</option>
+                    <option value = "K">RN</option>
+                    <option value = "L">PB</option>
+                    <option value = "M">PE</option>
+                    <option value = "N">AL</option>
+                    <option value = "O">SE</option>
+                    <option value = "P">BA</option>
+                    <option value = "Q">MG</option>
+                    <option value = "R">ES</option>
+                    <option value = "S">RJ</option>
+                    <option value = "U">SP</option>
+                    <option value = "V">PR</option>
+                    <option value = "X">SC</option>
+                    <option value = "W">RS</option>
+                    <option value = "Y">MS</option>
+                    <option value = "Z">MT</option>
+                    <option value = "1">GO</option>
+                    <option value = "2">DF</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset id = "cont">
+            <legend>Contato</legend>
+            <div id = "dv11">
+                <label id = "label12" for = "telefone res">Telefone Residencial: </label>
+                <input type = "text" required id = "label12" name = "telRes" placeholder = "(000) 0000-0000">
+            </div>
+            <div id = "dv12">
+                <label id = "label13" for = "telefone cel">Telefone Celular: </label>
+                <input type = "text" required id = "label13" name = "telCel" placeholder = "(000) 0 0000-0000">             
+            </div>
+            <div id = "dv13">
+                <label id = "label14" for = "email">Email: </label>
+                <input type = "text" required id = "label14" name = "email" placeholder = "exemple@domain.com">
+            </div>
+              <fieldset id = "rede">
+                <legend>Redes sociais</legend>
+                    <div id = "dv14"> 
+                        <input type = "checkbox" id = "face1" name = "facebook">
+                        <label id = "Face2" for = "FB"> Facebook</label>
+                    </div>
+                    <div id = "dv15">
+                        <input type = "checkbox" id = "link1" name = "linkdin">
+                        <label id = "Link2" for = "Lin"> Linkdein</label>
+                    </div>
+                    <div id = "dv16">
+                        <input type = "checkbox" id = "insta1" name = "instagram">
+                        <label id = "Inst2" for = "Inst"> Instagram</label>
+                    </div>
+                    <div id = "dv17">
+                        <input type = "checkbox" id = "what1" name = "whatsapp">
+                        <label id = "What2" for = "WPP"> Whatsapp</label>
+                    </div>
+                    <div id = "dv18">
+                        <input type = "checkbox" id = "twit1" name = "twitter">
+                        <label id = "Twit2" for = "TW"> Twitter</label>               
+                    </div>
+            </fieldset>      
+        </fieldset>
+    </div>
+    <div id = "dv19">
+        <input type="checkbox" id = "termo" name="termos"> 
+        <text id = "tx1">Eu li e concordo com os <a href = "#" id = "term">termos de acordo de assinatura</a></text>
+    </div>    
+    <div id = "button">
+        <input type = "button" id = "btn1" name = "Enviar Cadastro" value = "Enviar Cadastro">
+    </div>
+    <script src = "script.js"></script>
+</body>
+</html>
